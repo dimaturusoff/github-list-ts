@@ -1,10 +1,13 @@
 {
     "include": [
-        "./src/**/*"
+        "./src/**/*",
+        "globals.d.ts"
     ],
     "compilerOptions": {
+        "skipLibCheck": true,
         "strict": true,
         "esModuleInterop": true,
+        "downlevelIteration": true,
         "lib": [
             "dom",
             "es2015"
