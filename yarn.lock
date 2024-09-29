@@ -2474,9 +2474,9 @@
     "@types/node" "*"
 
 "@types/node@*":
-  version "22.7.3"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.7.3.tgz#7ddf1ddf13078692b4cfadb835852b2a718ee1ef"
-  integrity sha512-qXKfhXXqGTyBskvWEzJZPUxSslAiLaB6JGP1ic/XTH9ctGgzdgYguuLP1C601aRTSDNlLb0jbKqXjZ48GNraSA==
+  version "22.7.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.7.4.tgz#e35d6f48dca3255ce44256ddc05dee1c23353fcc"
+  integrity sha512-y+NPi1rFzDs1NdQHHToqeiX2TIS79SWEAw9GYhkkx8bD0ChpfqC+n2j5OXOCpzfojBEBt6DnEnnG9MY0zk1XLg==
   dependencies:
     undici-types "~6.19.2"
 
@@ -2535,9 +2535,9 @@
     "@types/react" "*"
 
 "@types/react@*":
-  version "18.3.9"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.3.9.tgz#2cdf5f425ec8a133d67e9e3673909738b783db20"
-  integrity sha512-+BpAVyTpJkNWWSSnaLBk6ePpHLOGJKnEQNbINNovPWzvEUyAe3e+/d494QdEh71RekM/qV7lw6jzf1HGrJyAtQ==
+  version "18.3.10"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.3.10.tgz#6edc26dc22ff8c9c226d3c7bf8357b013c842219"
+  integrity sha512-02sAAlBnP39JgXwkAq3PeU9DVaaGpZyF3MGcC0MKgQVkZor5IiiDAipVaxQHtDJAmO4GIy/rVBy/LzVj76Cyqg==
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"
@@ -7168,9 +7168,9 @@ nth-check@^2.0.1:
     boolbase "^1.0.0"
 
 nwsapi@^2.2.0:
-  version "2.2.12"
-  resolved "https://registry.yarnpkg.com/nwsapi/-/nwsapi-2.2.12.tgz#fb6af5c0ec35b27b4581eb3bbad34ec9e5c696f8"
-  integrity sha512-qXDmcVlZV4XRtKFzddidpfVP4oMSGhga+xdMc25mv8kaLUHtgzCDhUxkrN8exkGdTlLNaXj7CV3GtON7zuGZ+w==
+  version "2.2.13"
+  resolved "https://registry.yarnpkg.com/nwsapi/-/nwsapi-2.2.13.tgz#e56b4e98960e7a040e5474536587e599c4ff4655"
+  integrity sha512-cTGB9ptp9dY9A5VbMSe7fQBcl/tt22Vcqdq8+eN93rblOuE0aCFu4aZ2vMwct/2t+lFnosm8RkQW1I0Omb1UtQ==
 
 object-assign@^4.0.1, object-assign@^4.1.1:
   version "4.1.1"
@@ -9388,9 +9388,9 @@ terser-webpack-plugin@^5.2.5, terser-webpack-plugin@^5.3.10:
     terser "^5.26.0"
 
 terser@^5.0.0, terser@^5.10.0, terser@^5.26.0:
-  version "5.34.0"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-5.34.0.tgz#62f2496542290bc6d8bf886edaee7fac158e37e4"
-  integrity sha512-y5NUX+U9HhVsK/zihZwoq4r9dICLyV2jXGOriDAVOeKhq3LKVjgJbGO90FisozXLlJfvjHqgckGmJFBb9KYoWQ==
+  version "5.34.1"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-5.34.1.tgz#af40386bdbe54af0d063e0670afd55c3105abeb6"
+  integrity sha512-FsJZ7iZLd/BXkz+4xrRTGJ26o/6VTjQytUk8b8OxkwcD2I+79VPJlz7qss1+zE7h8GNIScFqXcDyJ/KqBYZFVA==
   dependencies:
     "@jridgewell/source-map" "^0.3.3"
     acorn "^8.8.2"
