@@ -2,7 +2,7 @@ import { memo, useCallback, useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { AppDispatch, RootState } from "../../app/store";
 import { fetchItems } from "../../entities/project/slice";
-import { AspectRatio, Avatar, Box, Card, CircularProgress, Grid, Link, Typography } from "@mui/joy";
+import { Alert, AspectRatio, Avatar, Box, Card, CircularProgress, Grid, Link, Typography } from "@mui/joy";
 import styles from './styles.module.css';
 
 const HomePage = memo(function HomePage() {
@@ -40,9 +40,11 @@ const HomePage = memo(function HomePage() {
       </Typography>
       </div>
       {error && (
-        <Typography sx={{ color: 'error.main', mt: 2 }}>
+        <Alert className={styles.error}>
+        <Typography level="title-md">
           {error}
         </Typography>
+        </Alert>
       )}
 
       {!error && !!items.length && (
