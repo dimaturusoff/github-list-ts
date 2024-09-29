@@ -42,8 +42,11 @@ const projectsSlice = createSlice({
             })
             .addCase(fetchItems.fulfilled, (state, action) => {
                 const previousState = { ...state };
+                const previousStateIds = previousState.items.map(item => item.id);
+                const currentItems = [...action.payload];
+
                 state.loading = false;
-                state.items = [... previousState.items, ...action.payload];
+                state.items = [... previousState.items, ...currentItems.filter((item => !previousStateIds.includes(item.id)))];
             })
             .addCase(fetchItems.rejected, (state, action) => {
                 state.loading = false;
