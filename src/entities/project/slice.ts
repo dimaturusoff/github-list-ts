@@ -43,7 +43,7 @@ const projectsSlice = createSlice({
             .addCase(fetchItems.fulfilled, (state, action) => {
                 const previousState = { ...state };
                 state.loading = false;
-                state.items = [...new Set([... previousState.items, ...action.payload])];
+                state.items = [... previousState.items, ...action.payload];
             })
             .addCase(fetchItems.rejected, (state, action) => {
                 state.loading = false;
